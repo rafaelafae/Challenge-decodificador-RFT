@@ -205,9 +205,6 @@ body{
 }
 
 @media (max-width: 500px) {
-    .border{
-        height: 30px;
-    }
     .buttons {
         display: flex;
         flex-direction: column;
