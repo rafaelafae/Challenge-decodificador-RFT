@@ -2,7 +2,7 @@
 
 ### Link do projeto
 
-![DECODIFICADOR DE TEXTO](https://challenge-decodificador-rft.vercel.app/)
+[DECODIFICADOR DE TEXTO](https://challenge-decodificador-rft.vercel.app/)
 
 ### Este Challenge foi promovido pela Oracle Next Education em parceria com a Alura LATAM na formação Iniciante em Programação T6 - ONE
 
