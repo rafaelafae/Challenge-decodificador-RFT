@@ -4,9 +4,6 @@
 
 ![Project cover](https://github.com/rafaelafae/Challenge-decodificador-RFT/blob/a40baaca810e53310f9a453aaddc0cf22378b364/assets/Capa-projeto.png)
 
-### Link de acesso ###
-[DECODIFICADOR DE TEXTO]([https://challenge-decodificador-rft.vercel.app/](https://challenge-decodificador-rft-git-main-rafaelafaes-projects.vercel.app/))
-
 ### Ferramentas utilizadas
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=whit)
