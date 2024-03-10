@@ -1,9 +1,5 @@
 # Challeng decodificador de texto com JavaScript
 
-### Link do projeto
-
-[DECODIFICADOR DE TEXTO](https://challenge-decodificador-rft.vercel.app/)
-
 ### Este Challenge foi promovido pela Oracle Next Education em parceria com a Alura LATAM na formação Iniciante em Programação T6 - ONE
 
 ![Project cover](https://github.com/rafaelafae/Challenge-decodificador-RFT/blob/a40baaca810e53310f9a453aaddc0cf22378b364/assets/Capa-projeto.png)
