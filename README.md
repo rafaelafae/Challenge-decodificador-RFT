@@ -5,7 +5,7 @@
 ![Project cover](https://github.com/rafaelafae/Challenge-decodificador-RFT/blob/a40baaca810e53310f9a453aaddc0cf22378b364/assets/Capa-projeto.png)
 
 ### Link de acesso ###
-[DECODIFICADOR DE TEXTO](https://challenge-decodificador-rft.vercel.app/)
+[DECODIFICADOR DE TEXTO]([https://challenge-decodificador-rft.vercel.app/](https://challenge-decodificador-rft-git-main-rafaelafaes-projects.vercel.app/))
 
 ### Ferramentas utilizadas
 
