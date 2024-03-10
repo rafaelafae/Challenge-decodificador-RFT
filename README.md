@@ -1,6 +1,11 @@
-# Challenge-decodificador-RFT
+# Challeng decodificador de texto com JavaScript
 
 ### Este Challenge foi promovido pela Oracle Next Education em parceria com a Alura LATAM na formação Iniciante em Programação T6 - ONE
+
+![Project cover](https://github.com/rafaelafae/Challenge-decodificador-RFT/blob/a40baaca810e53310f9a453aaddc0cf22378b364/assets/Capa-projeto.png)
+
+### Link de acesso ###
+[DECODIFICADOR DE TEXTO](https://challenge-decodificador-rft.vercel.app/)
 
 ### Ferramentas utilizadas
 
@@ -17,8 +22,3 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 <br/>
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-![Project cover](https://github.com/rafaelafae/Challenge-decodificador-RFT/blob/a40baaca810e53310f9a453aaddc0cf22378b364/assets/Capa-projeto.png)
-
-### Link de acesso ###
-[DECODIFICADOR DE TEXTO](https://challenge-decodificador-rft.vercel.app/)
