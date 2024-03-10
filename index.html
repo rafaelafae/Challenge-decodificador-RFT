@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código secreto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/star_FILL0_wght400_GRAD0_opsz24.png" type="image/png">
+</head>
+
+<body>
+    <header class="body__header">
+        <h1>Crie um segredo ou descubra um!</h1>
+    </header>
+
+    <main class="body__main">
+
+        <div class="box">
+            <div class="border">
+                <h1 class="text-input">CRIPOGRAFAR OU DESCRIPTGRAFAR</h1>
+                <button class="border-button" onclick="clearInput()" id="delete"><img src="/assets/delete_FILL0_wght400_GRAD0_opsz24.png" alt="cleaner button"></button>
+            </div>
+            <div class="box-input">
+                <textarea id="input" class="text-input" placeholder="Digite sua mensagem aqui..."></textarea>
+                <div>
+                    <h1 class="attention">Não utilizar acentos ou caracteres especiais!</h1>
+                </div>
+                <div class="buttons">
+                    <button onclick="encrypt()" class="btn-style" id="btn-encrypt">Criptografar</button> 
+                    <button onclick="decrypt()" class="btn-style"  id="btn-decrypt">Descriptografar</button>
+                </div>
+            </div>
+        </div> 
+
+            <!-- projeto de alteração futura 
+            <div class="swap">
+            <button class="swap-button" id="toggleButton" onclick="swap()"><img src="/assets/swap_horiz_FILL0_wght400_GRAD0_opsz24.png" alt="swap button"></button>   
+            </div>
+            -->
+
+        <div class="box">
+            <div class="border">
+                <h1 class="text-input">MENSAGEM</h1>
+                <button onclick="copy()" class="border-button" id="btn-copy"><img src="/assets/content_copy_FILL0_wght400_GRAD0_opsz24.png" alt="copy button"></button></button>
+            </div>
+            <div class="box-input">
+                <div id="output">
+                    <div class="out-text">
+                        <img src="/assets/looking-for-something.png" alt="a guy looking for something with a magnifying glass">
+                        <p class="out-text-p"><strong>Nenhuma mensagem encontrada!</strong></p>
+                        <p class="out-text-p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por Rafaela Faé Theodoro</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

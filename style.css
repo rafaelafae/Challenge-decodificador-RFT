@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Ojuju:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --firstcolor: #FFC0D9;
+    --secondcolor: #E1AFD1;
+    --thirdcolor: #FFE6E6;
+    --fourthcolor: #8E7AB5;
+    --firstfont: "Finger Paint", sans-serif;
+    --secondfont: "Ojuju", sans-serif;
+    --thirdfont: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--thirdcolor);
+    color: var(--fourthcolor);
+}
+
+.body__header {
+    display: flex;
+    align-items: center;
+    width: auto;
+    font-family: var(--firstfont);
+    font-size: 1.5rem;
+    padding: 4% 0 0 10%;
+}
+
+.body__main {
+    display: flex;
+    flex-direction: row;
+    padding: 4% 10%;
+    gap: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--firstcolor);
+    width: 100%;
+    height: 350px;
+    gap: 5%;
+}
+
+.border {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--firstcolor);
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to left, #8E7AB5, #FF90BC,  #FFC0D9, #FFE6E6);
+}
+
+.border-button {
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0 1%;
+}
+
+.text-input {
+    font-family: var(--thirdfont);
+    font-size: 2rem;
+    padding: 0 0 0 1%;
+}
+
+.attention {
+    font-family: var(--thirdfont);
+    font-size: 1.7rem;
+}
+
+.border-button:hover {
+    border: solid var(--secondcolor);
+}
+
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    gap: 5%;
+}
+
+#input {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    font-family: var(--thirdfont);
+    font-size: 2rem;
+    width: 90%;
+    height: 100%;
+    resize: none;
+    text-transform: lowercase;
+    padding: 2%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+}
+
+.btn-style {
+    border: none;
+    text-decoration: none;
+    color: var(--fourthcolor);
+    background-color: var(--firstcolor);
+    width: 180px;
+    height: 38px;
+    cursor: pointer;
+    font-family: var(--thirdfont);
+    font-size: 1.7rem;
+    margin: 3%;
+}
+
+.btn-style:hover {
+    border: solid var(--secondcolor);
+    background-color: var(--thirdcolor);
+}
+.swap {
+    display: flex;
+    justify-content: center;
+}
+
+.swap-button {
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 0 1%;
+}
+
+.swap-button:hover {
+    border: solid var(--secondcolor);
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    width: 90%;
+    height: 100%;
+    font-family: var(--thirdfont);
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+.out-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--fourthcolor);
+    text-transform: none;  
+    padding: 5%;
+}
+
+.out-text img {
+    max-width: 75px;
+    max-height: 130px;
+}
+
+.out-text-p {
+    padding-bottom: 5%;
+}
+
+.footer {
+    padding: 24px;
+    color: var(--firstcolor);
+    background-color: var(--fourthcolor);
+    text-align: center;
+    font-family: var(--thirdfont);
+    font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+    .body__main {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .box {
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .border{
+        height: 30px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-style {
+        width: 150px;
+        height: 30px;
+        font-size: 1.6rem;
+        margin: 2%;
+    }
+    .attention {
+        font-size: 1.4rem;
+    }
+    .text-input {
+        font-size: 1.8rem;
+    }
+}
